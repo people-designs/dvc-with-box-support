@@ -278,6 +278,11 @@ SCHEMA = {
                     Optional("verify", default=True): Bool,
                     **REMOTE_COMMON,
                 },
+                "box": {
+                    "config_file_path": str,
+                    "user_id": str,
+                    **REMOTE_COMMON,
+                },
                 "gdrive": {
                     "profile": str,
                     "gdrive_use_service_account": Bool,
