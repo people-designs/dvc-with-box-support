@@ -40,7 +40,7 @@ dependencies = [
     "dulwich",
     "dvc-data>=3.16.2,<3.17",
     "dvc-http>=2.29.0",
-    "dvc-objects",
+    "dvc-objects-with-box-support",
     "dvc-render>=1.0.1,<2",
     "dvc-studio-client>=0.21,<1",
     "dvc-task>=0.3.0,<1",
